@@ -1,0 +1,173 @@
+body{
+max-width: 1920px;
+margin:0;
+text-align: center;
+font-family: 'Archivo Narrow', sans-serif;
+color:#3D0043;
+font-size: 14px;
+background-color: #eef2f5;
+}
+
+p{
+  font-family: 'Volkhov', serif;
+  font-weight: bold;
+
+}
+
+h2{
+  font-size: 25px;
+  color:#6370A9;
+}
+h3{
+  font-size: 45px;
+    color:#6370A9;
+}
+
+hr{
+border:dotted #6370A9 6px;
+border-bottom: none;
+width: 4%;
+}
+/***header****/
+.me img{
+  top:40px;
+  left:40px;
+  width: 7%;
+  position: absolute;
+
+
+}
+
+
+.container{
+position: relative;
+margin:0;
+text-align: center;
+}
+
+.container img {
+width:100%;
+}
+
+.first-line{
+font-family: 'Mr Dafoe', cursive;
+font-size: 9vw;
+position: absolute;
+top:8rem;
+width:100%;
+line-height: 0.7;
+text-shadow: 2px 2px #948ABE;
+
+}
+.second-line{
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 2vw;
+
+}
+/***portrait***/
+.container-middle{
+  width:50%;
+  margin:150px auto;
+  line-height: 2;
+
+}
+
+.container-middle img{
+  width: 25%;
+  background-color: #8D90BE;
+  border-radius: 40%;
+  margin: auto;
+}
+
+
+/***skills***/
+.container-skills{
+  width:50%;
+  margin:150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.container-skills img{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+/***Hobbies***/
+.container-bottom{
+  width:50%;
+  margin:150px auto;
+  text-align: left;
+  line-height: 2;
+}
+.container-bottom img{
+  float:left;
+  width: 25%;
+  margin-right: 40px;
+}
+
+/***footer***/
+.footer{
+  width:20%;
+  margin:150px auto;
+  line-height: 2;
+}
+
+.footer p{
+  margin-bottom: 50px;
+}
+
+.butn {
+  background: #3C3E5D;
+  background-image: -webkit-linear-gradient(top, #3C3E5D, #5e6299);
+  background-image: -moz-linear-gradient(top, #3C3E5D, #5e6299);
+  background-image: -ms-linear-gradient(top, #3C3E5D, #5e6299);
+  background-image: -o-linear-gradient(top, #3C3E5D, #5e6299);
+  background-image: linear-gradient(to bottom, #3C3E5D, #5e6299);
+  -webkit-border-radius: 29;
+  -moz-border-radius: 29;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #4a5091;
+  background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8));
+  background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+  background: -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+  background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+  text-decoration: none;
+}
+
+
+
+/***last***/
+
+.last{
+  background-color:#5D69A5;
+  height:200px;
+}
+
+.last a{
+  font-size: 18px;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: bold;
+  margin:10px 20px;
+  text-decoration: none;
+  position: relative;
+  top:80px;
+}
+
+.copyright{
+  font-weight: none;
+  position: relative;
+  color: #fff;
+    top:110px;
+}
